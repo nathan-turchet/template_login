@@ -13,20 +13,3 @@ export namespace apiUrl {
     }
 
 }
-/*
-    axiosInstance.interceptors.request.use(
-        (config) => {
-            // Récupérer le cookie stocké dans le navigateur
-            const cookie = document.cookie.split(';').find(cookie => cookie.trim().startsWith('user_session='));
-            if (cookie) {
-                // Ajouter le cookie aux en-têtes de la requête
-                config.headers['Cookie'] = cookie.split('=')[1];
-            }
-            return config;
-        },
-        (error) => {
-            return Promise.reject(error);
-        }
-    );
-
-    export default axiosInstance;}*/
