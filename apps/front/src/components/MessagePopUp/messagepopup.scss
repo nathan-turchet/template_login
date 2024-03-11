@@ -1,0 +1,37 @@
+.pop-up-message {
+  z-index: 1000;
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  min-width: 200px;
+  background-color: #FEE;
+  border: 1px solid #ecb5b5;
+
+  p {
+    padding: 10px;
+  }
+}
+
+.pop-up-message.error {
+  background-color: #FEE;
+  border: 1px solid #ecb5b5;
+  p {
+    color: #a85d5d;
+  }
+}
+
+.pop-up-message.success {
+  background-color: #EFE;
+  border: 1px solid #acd8ac;
+  p {
+    color: #70ab70;
+  }
+}
+
+.pop-up-message.warning {
+  background-color: #FDF7DF;
+  border: 1px solid #FEEC6F;
+  p {
+    color: #C9971C;
+  }
+}

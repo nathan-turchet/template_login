@@ -1,0 +1,14 @@
+form {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p.errorMessage {
+  color: red;
+  margin-bottom: 7px;
+  text-align: center;
+  font-size: clamp(0.8em, 4vw, 1.3em);
+}

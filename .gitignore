@@ -1,0 +1,29 @@
+apps/api/node_modules
+apps/front/node_modules
+packages/api/node_modules
+
+*/build
+tmp
+
+# Secrets
+apps/api/.env
+apps/front/.env
+packages/api/.env
+
+*/.env
+*/.env.local
+*/.env.production.local
+*/.env.development.local
+
+
+# Build tools specific
+npm-debug.log
+yarn-error.log
+
+# Editors specific
+.fleet
+.idea
+.vscode
+
+# Platform specific
+.DS_Store

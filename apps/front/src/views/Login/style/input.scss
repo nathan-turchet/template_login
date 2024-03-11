@@ -1,0 +1,36 @@
+.content-fields {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    margin-bottom: 7px;
+    font-size: clamp(1.3em, 4vw, 2em);
+  }
+
+  input {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+
+.content-fields button {
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #2b4d86;
+  border: none;
+  color: white;
+
+  &:disabled {
+    cursor: default;
+    background-color: #385483;
+  }
+}
